@@ -19,10 +19,10 @@ import (
 
 	"golang.org/x/net/http2"
 
+	"github.com/gzapatas/go-http-tunnel/id"
+	"github.com/gzapatas/go-http-tunnel/log"
+	"github.com/gzapatas/go-http-tunnel/proto"
 	"github.com/inconshreveable/go-vhost"
-	"github.com/mmatczuk/go-http-tunnel/id"
-	"github.com/mmatczuk/go-http-tunnel/log"
-	"github.com/mmatczuk/go-http-tunnel/proto"
 )
 
 // A set of listeners to manage subscribers
